@@ -1,3 +1,4 @@
+# bmi checker
 w = float(input("enter the weight in kgs"))
 h = float(input("enter the height in m"))
 bmi = w/(h*h)
@@ -8,4 +9,4 @@ elif bmi < 25:
 elif bmi < 30:
     print(bmi,"it is overweight ")
 else:
-    print(bmi,"it is obese")
+    print(bmi,"  it is obese")
