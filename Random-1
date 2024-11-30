@@ -1,0 +1,14 @@
+#numbergame
+import random 
+
+computer = random.randint(1,5)
+while True:
+    no = int(input("Enter a number between 1-50"))
+    if no == computer:
+        print("you win the game")
+        break
+    else:
+        print("try again")
+    choice =  input("do you want to try")
+    if choice =='n':
+        break
