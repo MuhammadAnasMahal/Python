@@ -1,0 +1,10 @@
+#Credit an empty list 
+empty_list = []
+print(empty_list)
+
+numbers = [1,2,3,4,5]
+print(numbers)
+tripples = numbers*3
+print(tripples)
+numbers.reverse()
+print(numbers)

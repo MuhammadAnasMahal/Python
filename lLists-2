@@ -1,0 +1,7 @@
+List1 = ["apple", "bib", "non", "eagle"] 
+count = 0 
+for i in List1:
+    if i [0]== i[-1]:
+        print(i)
+        count+=1
+print("the spring that has the first letter and the last lerret", count)

@@ -1,0 +1,9 @@
+list1 = [23,35,68,78,98]
+sum = 0 
+for i in list1:
+    sum=sum + i 
+
+print("THe total in", sum )
+print("the average is", sum/len (list1))
+print("the maximum no", max (list1))
+print("the minimum no", min (list1))
