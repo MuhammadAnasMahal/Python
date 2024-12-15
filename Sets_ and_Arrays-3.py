@@ -1,0 +1,11 @@
+import array as arr
+a = arr.array('d',[12,34,23,45,54,74,56])
+print(a)
+print(a[0])
+a.append(100)
+print(a)
+a.insert(4,2000)
+print(a)
+a.reverse()
+print(a)
+print(a.count(12))
